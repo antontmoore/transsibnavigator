@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "navigator for trans siberia railroad"
+version = "0.1"
+description = "Навигатор транссибирской магистрали"
+authors = ["Anton Tmur <tmur.a@numdes.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dash = "2.8.0"
+Pillow = "9.4.0"
+numpy = "1.24.1"
+pandas = "1.5.3"
+plotly = "5.13.0"
+ipywidgets = ">=7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
